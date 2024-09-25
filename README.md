@@ -1,5 +1,5 @@
 # IIB Demo
-**Not all functions works correctly due to static conversion (converted from PHP to HTML)**
+**Not all functions work correctly due to static conversion (from PHP to HTML)**
 
 Repository storing static files for https://demo.bewegung.app/
 
