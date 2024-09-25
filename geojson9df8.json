@@ -1,0 +1,50 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0992928,
+                    59.3366140997222
+                ]
+            },
+            "properties": {
+                "photoId": "208699a6-4403-41bb-ba74-72398ee13730"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0947527,
+                    59.3446994997222
+                ]
+            },
+            "properties": {
+                "photoId": "18bbc618-e833-456f-ae43-8038a3e1a6b8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        18.0992928,
+                        59.3366140997222
+                    ],
+                    [
+                        18.0947527,
+                        59.3446994997222
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Travel Path"
+            }
+        }
+    ]
+}

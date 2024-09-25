@@ -1,0 +1,68 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "17.301523",
+                    "62.391386"
+                ]
+            },
+            "properties": {
+                "name": "Sundsvall",
+                "letter": "A"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "16.176908",
+                    "62.496154"
+                ]
+            },
+            "properties": {
+                "name": "Fr\u00e4nsta",
+                "letter": "B"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "16.722003",
+                    "62.769930"
+                ]
+            },
+            "properties": {
+                "name": "Sillre",
+                "letter": "C"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        "17.301523",
+                        "62.391386"
+                    ],
+                    [
+                        "16.176908",
+                        "62.496154"
+                    ],
+                    [
+                        "16.722003",
+                        "62.769930"
+                    ]
+                ]
+            },
+            "properties": []
+        }
+    ]
+}
