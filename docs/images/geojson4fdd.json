@@ -1,0 +1,52 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "4.913941",
+                    "52.388121"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 1: Bunk Hotel",
+                "description": "<b>Accommodation:<\/b> Bunk Hotel, 2 Hagedoornplein, Amsterdam<br \/><b>Date:<\/b> 2022-03-05 <b>Coordinates:<\/b> 52.388121, 4.913941"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "5.683765",
+                    "50.848687"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 2: Kruisherenhotel Maastricht",
+                "description": "<b>Accommodation:<\/b> Kruisherenhotel Maastricht, Kruisherengang 19, Maastricht<br \/><b>Date:<\/b> 2022-03-06 <b>Coordinates:<\/b> 50.848687, 5.683765"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        "4.913941",
+                        "52.388121"
+                    ],
+                    [
+                        "5.683765",
+                        "50.848687"
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Travel Path"
+            }
+        }
+    ]
+}

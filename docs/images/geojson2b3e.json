@@ -1,0 +1,68 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "4.865150",
+                    "52.357888"
+                ]
+            },
+            "properties": {
+                "name": "Amsterdam",
+                "letter": "A"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "5.686473",
+                    "50.849295"
+                ]
+            },
+            "properties": {
+                "name": "Maastricht",
+                "letter": "B"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "6.898713",
+                    "52.215124"
+                ]
+            },
+            "properties": {
+                "name": "Enschede",
+                "letter": "C"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        "4.865150",
+                        "52.357888"
+                    ],
+                    [
+                        "5.686473",
+                        "50.849295"
+                    ],
+                    [
+                        "6.898713",
+                        "52.215124"
+                    ]
+                ]
+            },
+            "properties": []
+        }
+    ]
+}

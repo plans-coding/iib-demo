@@ -1,0 +1,88 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "16.797764",
+                    "62.661041"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 1: Tent next to lake",
+                "description": "<b>Accommodation:<\/b> Tent next to lake<br \/><b>Date:<\/b> 2024-08-01 <b>Coordinates:<\/b> 62.661041, 16.797764"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "16.797764",
+                    "62.661041"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 2: Tent next to lake",
+                "description": "<b>Accommodation:<\/b> Tent next to lake<br \/><b>Date:<\/b> 2024-08-02 <b>Coordinates:<\/b> 62.661041, 16.797764"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "16.797764",
+                    "62.661041"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 3: Tent next to lake",
+                "description": "<b>Accommodation:<\/b> Tent next to lake<br \/><b>Date:<\/b> 2024-08-03 <b>Coordinates:<\/b> 62.661041, 16.797764"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "16.797764",
+                    "62.661041"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 4: Tent next to lake",
+                "description": "<b>Accommodation:<\/b> Tent next to lake<br \/><b>Date:<\/b> 2024-08-04 <b>Coordinates:<\/b> 62.661041, 16.797764"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        "16.797764",
+                        "62.661041"
+                    ],
+                    [
+                        "16.797764",
+                        "62.661041"
+                    ],
+                    [
+                        "16.797764",
+                        "62.661041"
+                    ],
+                    [
+                        "16.797764",
+                        "62.661041"
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Travel Path"
+            }
+        }
+    ]
+}
