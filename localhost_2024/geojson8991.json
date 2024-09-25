@@ -1,0 +1,68 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "12.492284",
+                    "41.890194"
+                ]
+            },
+            "properties": {
+                "name": "Colosseum",
+                "letter": "A"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "12.454431",
+                    "41.902102"
+                ]
+            },
+            "properties": {
+                "name": "Basilica di San Pietro",
+                "letter": "B"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "12.485797",
+                    "41.913653"
+                ]
+            },
+            "properties": {
+                "name": "Villa Borghese",
+                "letter": "C"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        "12.492284",
+                        "41.890194"
+                    ],
+                    [
+                        "12.454431",
+                        "41.902102"
+                    ],
+                    [
+                        "12.485797",
+                        "41.913653"
+                    ]
+                ]
+            },
+            "properties": []
+        }
+    ]
+}

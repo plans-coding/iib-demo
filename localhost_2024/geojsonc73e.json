@@ -1,0 +1,52 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "12.587492",
+                    "55.684383"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 1: Apartment",
+                "description": "<b>Accommodation:<\/b> Apartment, Store Kongensgade 59, Copenhagen<br \/><b>Date:<\/b> 2021-12-23 <b>Coordinates:<\/b> 55.684383, 12.587492"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "12.587492",
+                    "55.684383"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 2: Apartment",
+                "description": "<b>Accommodation:<\/b> Apartment, Store Kongensgade 59, Copenhagen<br \/><b>Date:<\/b> 2021-12-24 <b>Coordinates:<\/b> 55.684383, 12.587492"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        "12.587492",
+                        "55.684383"
+                    ],
+                    [
+                        "12.587492",
+                        "55.684383"
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Travel Path"
+            }
+        }
+    ]
+}

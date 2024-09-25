@@ -1,0 +1,106 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "12.242687",
+                    "57.088600"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 1: Varbergs Kusthotell",
+                "description": "<b>Accommodation:<\/b> Varbergs Kusthotell, Nils Kreugers v\u00e4g 5, Varberg<br \/><b>Date:<\/b> 2024-08-25 <b>Coordinates:<\/b> 57.088600, 12.242687"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "12.242687",
+                    "57.088600"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 2: Varbergs Kusthotell",
+                "description": "<b>Accommodation:<\/b> Varbergs Kusthotell, Nils Kreugers v\u00e4g 5, Varberg<br \/><b>Date:<\/b> 2024-08-26 <b>Coordinates:<\/b> 57.088600, 12.242687"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "12.242687",
+                    "57.088600"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 3: Varbergs Kusthotell",
+                "description": "<b>Accommodation:<\/b> Varbergs Kusthotell, Nils Kreugers v\u00e4g 5, Varberg<br \/><b>Date:<\/b> 2024-08-27 <b>Coordinates:<\/b> 57.088600, 12.242687"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "12.242687",
+                    "57.088600"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 4: Varbergs Kusthotell",
+                "description": "<b>Accommodation:<\/b> Varbergs Kusthotell, Nils Kreugers v\u00e4g 5, Varberg<br \/><b>Date:<\/b> 2024-08-28 <b>Coordinates:<\/b> 57.088600, 12.242687"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "12.242687",
+                    "57.088600"
+                ]
+            },
+            "properties": {
+                "name": "Accommodation, night 5: Varbergs Kusthotell",
+                "description": "<b>Accommodation:<\/b> Varbergs Kusthotell, Nils Kreugers v\u00e4g 5, Varberg<br \/><b>Date:<\/b> 2024-08-29 <b>Coordinates:<\/b> 57.088600, 12.242687"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        "12.242687",
+                        "57.088600"
+                    ],
+                    [
+                        "12.242687",
+                        "57.088600"
+                    ],
+                    [
+                        "12.242687",
+                        "57.088600"
+                    ],
+                    [
+                        "12.242687",
+                        "57.088600"
+                    ],
+                    [
+                        "12.242687",
+                        "57.088600"
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Travel Path"
+            }
+        }
+    ]
+}

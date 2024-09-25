@@ -1,0 +1,68 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "20.228966",
+                    "67.855225"
+                ]
+            },
+            "properties": {
+                "name": "Kiruna",
+                "letter": "A"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "20.596622",
+                    "67.850019"
+                ]
+            },
+            "properties": {
+                "name": "Jukkasj\u00e4rvi",
+                "letter": "B"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "20.228966",
+                    "67.855225"
+                ]
+            },
+            "properties": {
+                "name": "Kiruna",
+                "letter": "C"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        "20.228966",
+                        "67.855225"
+                    ],
+                    [
+                        "20.596622",
+                        "67.850019"
+                    ],
+                    [
+                        "20.228966",
+                        "67.855225"
+                    ]
+                ]
+            },
+            "properties": []
+        }
+    ]
+}

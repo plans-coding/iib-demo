@@ -1,0 +1,13 @@
+<!-- #ffffff -->
+<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="inner-glow">
+    <feFlood flood-color="#000"/>
+    <feComposite in2="SourceAlpha" operator="out"/>
+    <feGaussianBlur stdDeviation="2" result="blur"/>
+    <feComposite operator="atop" in2="SourceGraphic"/>
+</filter> 
+</defs>
+  <circle filter="url(#inner-glow)" cx="25" cy="25" r="25" fill="#808080" />
+  <text x="50%" y="50%" class="text" text-anchor="middle" fill="#fff" dy=".32em" font-family="Arial, Helvetica, sans-serif" font-weight="normal" font-size="26pt">B</text><!-- stroke-width=".1em" -->
+</svg>
