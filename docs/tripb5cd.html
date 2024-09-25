@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from localhost:2024/trip.php?id=S-SE-1 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Sep 2024 17:46:54 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    
+    <link rel="shortcut icon" href="images/favicon.webp" />
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <title>S-SE-1 - Immer in Bewegung</title>
+    <link href="images/cssec4a.css?family=Cairo|Francois+One|Merriweather|Righteous" rel="stylesheet">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="images/manifest.json">
+    <meta name="theme-color" content="grey" id="themeColorMeta">
+    <meta name="msapplication-navbutton-color" content="#e3e3e3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel=icon href="favicon.webp">-->
+
+
+    <style>
+        html {height:100%;}
+        body{margin: 0;padding: 0;font-family: 'Merriweather', serif;height:100%;font-size:1.2em;}
+        .topBarContainer {z-index:1001;position:sticky;top:0;}
+        .topBar {padding: 0pt;background-color:grey;color:#fff;text-align: center;}
+        .menuBar {display: flex;flex-wrap: wrap;background-color:#f1f1f1;justify-content: space-between;gap:1pt;border-bottom:3pt solid grey;}
+        .menuBar > a {background-color:#e3e3e3;font-family: 'Francois+One', sans-serif;text-align: center;flex:1;cursor:pointer;padding:5pt;color:#000;}
+        .menuBar > a:hover {background-color:#b3b3b3;color:#fff;text-decoration:none;}
+        
+        .container {margin:auto;<br />
+<b>Warning</b>:  Undefined variable $widthRestriction in <b>/www/_head.php</b> on line <b>29</b><br />
+max-width:50em;width:50em;}
+        .normal { margin-top:20pt;margin-bottom:10pt;}
+
+        .inputDataContainer {background-color:grey;padding:2pt;margin:auto;display:inline-block;margin-top:20pt;}
+        .inputDescription {background-color:#fff2cc;margin-right:2pt;text-align:left;line-height:2rem;padding-left:5pt;padding-right:5pt;text-align:center;}
+        .inputData {display:flex;flex-direction:row;}
+        textarea:focus {outline: none;}
+        .inputDataSyntaxCheck {line-height: 2rem;background-color:grey;font-size:14pt;width:25pt;}
+
+        select {font-family: 'Francois+One', sans-serif;font-size:14pt;border:2pt solid grey;padding:5pt;}
+        
+        /*
+        input[type=text], input[type=date], input[type=datetime-local] {font-family: 'Segoe UI';font-size:14pt;border:2pt solid grey;padding:5pt;}
+        .textareaStd {font-family: 'Segoe UI';font-size:14pt;border:2pt solid grey;padding:5pt;}
+        */
+        
+        input[type=text], select { font-family: 'Francois+One', sans-serif; }
+
+        .immer-in-font-uc {font-family: 'Cairo', sans-serif;text-transform: uppercase;}
+        .bewegung-font-uc {font-family: 'Righteous', sans-serif;text-transform: uppercase;}
+
+        .trip_table, .trip_table_details {background-color:#e1e1e1;font-family: 'Francois+One', sans-serif;margin-top:10pt;}
+        thead {font-weight:bold;}
+        td {padding:5pt;}
+        .imagesBar {
+            padding: 5pt;
+            background-color: #e3e3e3;
+            font-family: 'Francois+One', sans-serif;
+            display:flex;
+            font-weight:bold;
+            align-items: center;
+            gap:2pt;
+        }
+
+        .button {padding: 10pt 10pt 10pt 10pt;background-color: #004c97;color: #fff;text-align: center;margin:auto;margin-top:10pt;width:209pt;}
+        .button:hover {background-color:#abd5ff;color:#000;cursor:pointer;}
+        .button_inactivated {padding: 10pt 10pt 10pt 10pt;background-color:grey;
+            color: #fff;text-align: center;margin:auto;margin-top:10pt;width:209pt;cursor:default;}
+
+        .filterButton {background-color:#e5f2ff;border-radius:10pt;padding:4pt 7pt 4pt 7pt;cursor:pointer;}
+        
+        a {color:#1d655e;text-decoration:none;}
+
+        h1 {display:block;font-family: 'Cairo', sans-serif;font-weight:bold;color:#000000;font-size:3em;line-height:1.2em;margin-bottom:20pt;}
+            h2 {margin-bottom:0;}
+        .iib-action-button {
+            margin-top: 10pt;
+            display: inline-block;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 2pt;
+            border-radius: 2pt;
+        }
+
+        .searchButton {font-family: 'Francois+One', sans-serif;font-size:18pt;background-color:grey;color:#fff;display:flex;cursor:pointer;border:0;}
+        .searchButton:hover {background-color:#b3b3b3;}
+
+        #aboutTop, #openinLogoSmall{display:none;}
+
+        #statComment, #statSummary tr:nth-child(even), #nightPerCountry tr:nth-child(even), #visitsPerCountry tr:nth-child(even) {
+            background-color: #e3e3e3; /* Color for even rows */
+        }
+        #chartFlex {height:300pt;}
+        .searchDay {background-color:#e3e3e3;}
+
+        #trip_nav {margin-top:20pt;}
+
+        #searchResult{height:;}
+
+        /* ##### ANNAN CSS FÖR MINDRE SKÄRM ##### */
+        @media (max-width: 1440px) {
+            .trip_image_button {font-size:1.2em;}
+            .trip_table {overflow:hidden;word-break:break-all;} /* word-break:break-all; */
+            .trip_table tr {display: grid;grid-template-columns: repeat(5, 1fr);}
+            .trip_table_division {grid-column: 1 / span 5;}
+            .trip_table_country_category {hyphens:auto;line-height:10pt;font-size:0.7em;word-break:break-all;} /* word-break:break-all; */
+            #iib-foot, #lang-menu-syncphp, #lang-menu-aboutphp, #prevDayText, #nextDayText, #backText, #openinText, #openinLogo, #lang-overview-heading {display:none;}
+            #aboutTop, #openinLogoSmall {display:inline-block;}
+            .topBar, .menuBar{font-size:14pt;}
+            #visitsPerCountry {font-size:9pt;margin-top:5pt;}
+            #visitsPerCountry td {padding:0pt;}
+            #lang-overview-paragraph {margin:5pt;}
+            #tripCatCont{margin:10pt 2pt 0pt 2pt;}
+            #chartFlex {height:200pt;width:150pt;}
+            .normal {font-size:30pt;margin:0;}
+            input::placeholder {font-size: 17pt;}
+            #lang-overview-paragraph{display:none;}
+            #trip_nav {margin-top:2pt;}
+            #map {height:250pt !important;}
+        }
+        /* ##### ANNAN CSS FÖR MINDRE SKÄRM ##### */
+
+        /* ##### ANNAN CSS FÖR DARK MODE ##### */
+        @media (prefers-color-scheme: dark) {
+            body, .trip_table, .menulink, thead, .trip_table_details {background-color:#000 !important;}
+            h1, h2,body, .menulink, thead, .trip_table_details, #update > div {color:#fff !important;}
+            .trip_table_division {background-color:#333333 !important;}
+            .trip_table {background-color:#333;}
+            input[type="text"], #searchStringPattern, select {background-color:#444 !important;color:#fff;}
+            .trip_table_details, menu {background-color:#333 !important;}
+            .searchButton, .trip_image_button {background-color:grey;}
+            .imagesBar{background-color:#555 !important;}
+            .nightNumber{color:#000;}
+            .topBar{background-color:#333 !important;}
+            .menuItem{background-color:#000 !important;color:#fff !important;}
+            .searchDay {background-color:#666;}
+            #updateText {color:#000 !important;}
+            #statComment, #statSummary tr:nth-child(even), #nightPerCountry tr:nth-child(even), #visitsPerCountry tr:nth-child(even) {
+                background-color: #333; /* Color for even rows */
+            }
+            #contentS{background-color:#333 !important;}
+            .menuBar {border-bottom:3pt solid #555;background-color:#333 !important;}
+        }
+        /* ##### ANNAN CSS FÖR DARK MODE ##### */
+
+    </style>
+
+    <script>
+
+        const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        themeColorMeta.setAttribute('content', 'black');  // Dark mode color
+        } else {
+        themeColorMeta.setAttribute('content', 'grey');   // Light mode color
+        }
+
+        // Optional: Listen for changes in the color scheme
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+        themeColorMeta.setAttribute('content', event.matches ? 'black' : 'grey');
+        });
+
+</script>
+    
+</head>
+
+<body>
+    <div style="display:flex;flex-direction:column;height:100%;">
+
+        <div class="topBarContainer">
+            <div style="position:absolute;right:10pt;top:5pt;"><span id="aboutTop"><a style="font-family: 'Francois+One', sans-serif;color:#fff;" href="about.html">?</a></span></div>
+            <div class="topBar" style="display:flex;align-items:center;justify-content: center; "><img src="images/frog_g_72.webp" style="height:24px;" />&nbsp;<span class="immer-in-font-uc">Immer in</span>&nbsp;<span class="bewegung-font-uc">Bewegung</span></div>
+            <div class="menuBar">
+                <a href="index-2.html" class="menuItem" id="lang-menu-indexphp" >Overview</a><a href="map.html" class="menuItem" id="lang-menu-mapphp" >Map</a><a href="statistics.html" class="menuItem" id="lang-menu-statisticsphp" >Statistics</a><a href="sync.html" class="menuItem" id="lang-menu-syncphp" >Sync</a><a href="about.html" class="menuItem" id="lang-menu-aboutphp" >About</a>            </div>
+        </div>
+
+        <div class="container" style="display: flex; flex-direction: column; height: 100vh;max-width:100%;">
+
+<style>
+.trip_table_details {
+  table-layout: fixed;
+  width: 100% ;
+}
+</style>
+
+<!-- Andra resor navigering -->
+<table id="trip_nav" style="width:100%;margin-bottom:10pt;background-color:#e1e1e1;font-family: 'Francois+One', sans-serif;">
+<style>
+.bar-all-trip-type { color:#ffffff;display:flex;justify-content:space-between;align-items:center; }
+.bar-all-trip-type > div { flex:1; }
+.bar-trip-button > a { cursor:pointer; }
+</style>
+<tr><td colspan="2" style="background-color:grey;color:#ffffff;text-align:center;">
+
+	<div class="bar-all-trip-type">
+		<div class="bar-trip-button" style="text-align:left;">
+		<a href="tripb1b8.html?id=P-SE-2" style="color:#fff;"
+			onmouseover="document.getElementById('prevTripIDAllTrips').style.visibility='visible';"
+			onmouseout="document.getElementById('prevTripIDAllTrips').style.visibility='hidden';">
+			<img src="images/arrow2.svg" style="height:18pt;margin-top:-2.5pt;margin-right:5pt;vertical-align:middle;">
+			<span id="prevTripIDAllTrips" style="visibility:hidden;">P-SE-2</span>
+		</a>
+	</div>
+		<div>
+			<select id="selectTripTypeAll" onchange="window.location.href = 'trip5445.html?id='+this.value" style="background-color:grey;color:#fff;font-size:12pt;padding:2pt;display:inline-block;width:100pt;border-color:#fff;">
+				<option value="S-SE-1" selected style="text-align:center;" id="lang-trip-all-trips">All trips</option>
+				<option value="P-1">2020 P-1 France</option><option value="F-1">2021 F-1 Italy</option><option value="D-1">2021 D-1 Copenhagen</option><option value="P-2">2022 P-2 Netherlands</option><option value="D-2">2022 D-2 Aarhus</option><option value="P-SE-1">2023 P-SE-1 Kiruna</option><option value="P-SE-2">2024 P-SE-2 Medelpad</option><option style="background-color:#000;" value="S-SE-1">2024 S-SE-1 Halland</option>			</select>
+		</div>
+		<div class="bar-trip-button" style="text-align:right;">
+			<a href="tripd409.html?id=P-1" style="color:#fff;"
+				onmouseover="document.getElementById('nextTripIDAllTrips').style.visibility='visible';"
+				onmouseout="document.getElementById('nextTripIDAllTrips').style.visibility='hidden';">
+				<span id="nextTripIDAllTrips" style="visibility:hidden;">P-1</span>
+				<img src="images/arrow2.svg" style="height:18pt;margin-top:-2.5pt;margin-right:5pt;vertical-align:middle;transform:rotate(180deg);">
+			</a>
+		</div>
+	</div>
+
+</td></tr>
+	<!-- Mellanrum -->
+<tr><td colspan="2" style="background-color:#0b5394;color:#ffffff;text-align:center;">
+	<div class="bar-all-trip-type">
+		<div class="bar-trip-button" style="text-align:left;">
+			<a href="tripb1b8.html?id=P-SE-2" style="color:#fff;"
+				onmouseover="document.getElementById('prevTripIDCurrentTripType').style.visibility='visible';"
+				onmouseout="document.getElementById('prevTripIDCurrentTripType').style.visibility='hidden';">
+				<img src="images/arrow2.svg" style="height:18pt;margin-top:-2.5pt;margin-right:5pt;vertical-align:middle;">
+				<span style="visibility:hidden;" id="prevTripIDCurrentTripType">P-SE-2</span>
+			</a>
+		</div>
+		<div>
+			<select id="selectTripTypeCurrent" onchange="window.location.href = 'trip5445.html?id='+this.value" style="background-color:#0b5394;color:#fff;font-size:12pt;padding:2pt;display:inline-block;width:100pt;border-color:#fff;">
+			<option value="S-SE-1" selected style="text-align:center;">Domestic</option>
+			<option value="P-SE-1">2023 P-SE-1 Kiruna</option><option value="P-SE-2">2024 P-SE-2 Medelpad</option><option style="background-color:#000;" value="S-SE-1">2024 S-SE-1 Halland</option>			</select>
+		</div>
+		<div class="bar-trip-button" style="text-align:right;">
+			<a href="trip286f.html?id=P-SE-1" style="color:#fff;"
+				onmouseover="document.getElementById('nextTripIDCurrentTripType').style.visibility='visible';"
+				onmouseout="document.getElementById('nextTripIDCurrentTripType').style.visibility='hidden';">
+			<span style="visibility:hidden;" id="nextTripIDCurrentTripType">P-SE-1</span> <img src="images/arrow2.svg" style="height:18pt;margin-top:-2.5pt;margin-right:5pt;vertical-align:middle;transform:rotate(180deg);">
+			</a>	
+		</div>
+	</div>
+
+</td></tr>
+</table>
+<!-- Andra resor navigering slut -->
+
+<h1 class="normal">S-SE-1 <span id="lang-trip-to">to</span> Halland</h1>
+
+<table class="trip_table_details" style="width:100%;">
+
+<tr><td colspan="2" style="background-color:#000;color:#ffffff;text-align:center;" id="lang-trip-summary">Summary</td></tr>
+<tr><td colspan="2">
+
+<div style="padding:10pt;" id="info">
+
+<!-- DYNAMSIK KARTA -->
+<!-- width och max-width kan tydligen användas samtidigt -->
+<div id="map" style="float:right;width:500pt;max-width:100%;height:469pt;margin-left:10pt;margin-bottom:10pt;">
+
+<div style="width:100%;height:100%;" id="overview_map"></div>
+<div style="width:100%;height:100%;visibility:hidden;" id="info_map"></div>
+
+</div>
+
+<!-- DYNAMISK KARTA -->
+
+<!-- BIBLIOTEK -->
+
+	<link rel="stylesheet" href="images/leaflet.css" />
+    <link rel="stylesheet" href="images/markercluster.default.css" />
+    <link href="images/leaflet.fullscreen.css" rel="stylesheet" />
+
+    <script src="images/leaflet.js"></script>
+    <script src="images/leaflet.polylinedecorator.js"></script>
+    <script src="images/leaflet.markercluster-src.js"></script>
+    <script src="images/leaflet.fullscreen.js"></script>
+
+	<style>
+		.leaflet-control-attribution a { color:#000 !important; }
+                
+        /*input[type="checkbox"] {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            width: 10pt;
+            height: 10pt;
+            border: 2px solid #555;
+            background: white;
+        }
+
+        input[type="checkbox"]:checked {
+            background: green;
+        }
+
+        .leaflet-control-layers-overlays label {
+            display: flex;
+            align-items: center;
+        }*/
+
+	</style>
+
+<!-- BIBLIOTEK SLUT -->
+
+<script>
+    // Initialize the map
+    var map = L.map('map').setView([59.32, 18.06], 5);
+
+    // Add a tile layer (OpenStreetMap in this example)
+    L.tileLayer('images/%7by%7d.png', {
+        attribution: '<a href="kml.php?type=overview&amp;id=S-SE-1">Overview KML</a>, <a href="kml.php?type=accommodation&amp;id=S-SE-1">Accommodations KML</a>, <a href="kml.php?type=assets&amp;id=S-SE-1">Assets KML</a>',
+        maxZoom: 19
+    }).addTo(map);
+
+    // Add fullscreen control
+    map.addControl(new L.Control.Fullscreen());
+
+    // Define different icons
+    var icons = {
+        //'Overview': L.icon({ iconUrl: 'img/plans_marker.php?color=000000&letter=A', iconSize: [32, 32] }),
+        'Accommodation': L.icon({ iconUrl: 'img/plans_house.php?color=4798d0', iconSize: [32, 32] }),
+        'Assets': L.icon({ iconUrl: 'img/plans_asset.php?color=77071d', iconSize: [32, 32] }),
+    };
+
+    // Initialize MarkerClusterGroup
+    var markerClusters = L.markerClusterGroup();
+
+    // Helper function to transform coordinates if needed
+    function transformCoordinates(coords) {
+        return coords.map(coord => [coord[1], coord[0]]); // Swap [lat, lon] to [lon, lat]
+    }
+
+    // Function to handle adding GeoJSON data to a layer
+    function createGeoJSONLayer(geojsonData, color, layerGroup, icon) {
+        return L.geoJSON(geojsonData, {
+            style: function (feature) {
+                if (feature.geometry.type === 'LineString') {
+                    return { color: color }; // Set line color
+                }
+            },
+            pointToLayer: function (feature, latlng) {
+                if (feature.geometry.type === 'Point') {
+
+                    if (layerGroup == layerGroups['Overview']){
+                        var letter = feature.properties.letter || 'X'; // Fallback
+                        icon = L.icon({
+                            iconUrl: `img/plans_marker.php?color=0b5394&letter=${letter}`,
+                            iconSize: [32, 32]
+                        });
+                    }
+
+                    // Create a marker with the specified icon
+                    return L.marker(latlng, { icon: icon });
+                    // Add the marker to the MarkerClusterGroup
+                    markerClusters.addLayer(marker);
+                }
+            },
+            onEachFeature: function (feature, layer) {
+                if (feature.geometry.type === 'Point') {
+                    // Add a popup to each marker with properties
+                    var popupContent = '';
+                    if (feature.properties) {
+                        // Generate popup content from properties
+                        /*for (var key in feature.properties) {
+                            if (feature.properties.hasOwnProperty(key)) {
+                                popupContent += `<strong>${key}:</strong> ${feature.properties[key]}<br>`;
+                            }
+                        }*/
+                        if (feature.properties.hasOwnProperty('name')) {
+                            popupContent += `<strong>${feature.properties['name']}</strong><br />`;
+                        }
+                        if (feature.properties.hasOwnProperty('description')) {
+                            popupContent += `${feature.properties['description']}`;
+                        }
+						if (feature.properties.hasOwnProperty('photoId')) {
+							var thumbnail = `http://localhost:2283/api/assets/${feature.properties['photoId']}/thumbnail`;
+                            var photoUrl = `http://localhost:2283/photos/${feature.properties['photoId']}`;
+                            popupContent += `<a target="_blank" href="${photoUrl}"><img style="width:100pt;" src="${thumbnail}" /></a>`;
+                        }
+                    }
+                    layer.bindPopup(popupContent);
+                }
+                // Add each layer to the layer group
+                layerGroup.addLayer(layer);
+            }
+        });
+    }
+
+    // Function to add polyline decorators
+    function addPolylineDecorators(layerGroup) {
+        layerGroup.eachLayer(function(layer) {
+            if (layer instanceof L.Polyline) {
+                // Add an arrow decorator to the polyline
+                var decorator = L.polylineDecorator(layer, {
+                    patterns: [
+                        { 
+                            offset: 0,
+                            repeat: 20,
+                            symbol: L.Symbol.arrowHead({
+                                pixelSize: 10,
+                                pathOptions: { color: layer.options.color, weight: 2 }
+                            })
+                        }
+                    ]
+                });
+                // Add the decorator to the layerGroup, not directly to the map
+                layerGroup.addLayer(decorator);
+            }
+        });
+    }
+
+    // Function to calculate combined bounds of all layer groups
+    function getCombinedBounds(layerGroups) {
+        var combinedBounds = L.latLngBounds([]);
+        for (var key in layerGroups) {
+            if (layerGroups.hasOwnProperty(key)) {
+                var bounds = layerGroups[key].getBounds();
+                combinedBounds.extend(bounds);
+            }
+        }
+        return combinedBounds;
+    }
+
+
+    // Fetch and create layers for multiple GeoJSON files
+    var layerGroups = {
+        'Overview': L.featureGroup(),
+        'Accommodation': L.featureGroup(),
+        'Assets': L.featureGroup()
+    };
+
+    var layerGroupsDisplayName = {
+    'Overview': layerGroups['Overview'],
+    'Accommodations': layerGroups['Accommodation'],
+    'Assets': layerGroups['Assets']
+    };
+
+
+    Promise.allSettled([
+        fetch('images/geojson3723.json?type=overview&amp;id=S-SE-1').then(response => response.json()),
+        fetch('images/geojsonf5e1.json?type=accommodation&amp;id=S-SE-1').then(response => response.json()),
+        
+            
+        fetch('images/geojson5505.json?type=assets&amp;id=S-SE-1').then(response => response.json())
+        
+    
+    ])
+    .then(results => {
+        if (results[0].status === 'fulfilled') {
+            createGeoJSONLayer(results[0].value, '#0b5394', layerGroups['Overview'], icons['Overview']);
+            addPolylineDecorators(layerGroups['Overview']);
+        } else {
+            console.error('Failed to fetch Overview GeoJSON:', results[0].reason);
+        }
+
+        if (results[1].status === 'fulfilled') {
+            createGeoJSONLayer(results[1].value, '#4798d0', layerGroups['Accommodation'], icons['Accommodation']);
+            addPolylineDecorators(layerGroups['Accommodation']);
+        } else {
+            console.error('Failed to fetch Accommodation GeoJSON:', results[1].reason);
+        }
+
+        if (results[2].status === 'fulfilled') {
+            createGeoJSONLayer(results[2].value, '#77071d', layerGroups['Assets'], icons['Assets']);
+            addPolylineDecorators(layerGroups['Assets']);
+        } else {
+            console.error('Failed to fetch Assets GeoJSON:', results[2].reason);
+        }
+
+        // Add layer controls
+        L.control.layers(null, layerGroupsDisplayName, {collapsed: false}).addTo(map);
+
+        map.addLayer(layerGroups['Overview']);
+
+        // Fit map to the bounds of the first layer as default
+        //map.fitBounds(layerGroups['Layer 1'].getBounds());
+
+        // Fit map to combined bounds of all layers
+        var combinedBounds = getCombinedBounds(layerGroups);
+        map.fitBounds(combinedBounds);
+
+    })
+    .catch(error => console.error('Error fetching GeoJSON data:', error));
+</script>
+
+<script>
+/* ÄNDRAR TOPPFÄLTSFÄRGEN PÅ ANDROID TILL SAMMA SOM RESETYPEN */
+document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0b5394');
+</script>
+
+
+<!-- DYNAMISK KARTA SLUT -->
+
+
+<div id="desc" style="padding-bottom:10pt;">Surfing in Varberg.</div>
+
+<div><b id="lang-trip-departure-date">Departure Date</b><b>:</b> <span id="total_days">2024-08-25</span></div>
+<div><b id="lang-trip-return-date">Return Date</b><b>:</b> <span id="total_days">2024-08-30</span></div>
+<div><b id="lang-trip-day-count">Number of Days</b><b>:</b> <span id="total_days">5</span></div>
+<div><b id="lang-trip-id">ID</b><b>:</b> <span id="span_id">S-SE-1</span></div>
+<div><b id="lang-trip-country-count">Number of Countries</b><b>:</b> <span id="total_countries">3</span></div>
+
+<div style="padding-top:10pt;"><b id="lang-trip-country-trip-movements">Country Trip Movements</b><b>:</b><br><span id="countries"><div style="display:inline-flex;max-width:190pt;margin-top:1pt;margin-bottom:1pt;padding:2pt 2pt 0pt 2pt;border-radius:2pt;background-color:#808080;color:#fff;margin-right:2pt;"><div style="padding:1pt;" title="">Home</div></div><img src="images/plans_arrow5fae.svg?color=000000" style="height:10pt;margin-top:-2.5pt;margin-left:3pt;margin-right:3pt;vertical-align:middle;transform: rotate(180deg);">Sweden<img src="images/plans_arrow5fae.svg?color=000000" style="height:10pt;margin-top:-2.5pt;margin-left:3pt;margin-right:3pt;vertical-align:middle;transform: rotate(180deg);"><div style="display:inline-flex;max-width:190pt;margin-top:1pt;margin-bottom:1pt;padding:2pt 2pt 0pt 2pt;border-radius:2pt;background-color:#808080;color:#fff;margin-right:2pt;"><div style="padding:1pt;" title="">Home</div></div></span></div>
+
+
+<div style="padding-top:10pt;"><b id="lang-trip-overall-route">Overall Route</b><b>:</b><br><span id="route"><div style="margin-top:5pt;height:20pt;display:inline-block;white-space:nowrap;"><img src="images/plans_markere386.svg?color=808080&amp;letter=A" style="height:18pt;vertical-align:middle;margin-top:-2.5pt;" /> Norra Näs</div> <div style="margin-top:5pt;height:20pt;display:inline-block;white-space:nowrap;"><img src="images/plans_markerd418.svg?color=808080&amp;letter=B" style="height:18pt;vertical-align:middle;margin-top:-2.5pt;" /> Stenared</div> <div style="margin-top:5pt;height:20pt;display:inline-block;white-space:nowrap;"><img src="images/plans_marker4b85.svg?color=808080&amp;letter=C" style="height:18pt;vertical-align:middle;margin-top:-2.5pt;" /> Tången</div> </span>
+</div>
+
+
+
+</div>
+
+<br style="clear:both;" />
+
+</div>
+
+</td></tr>
+
+<tr><td colspan="2" style="background-color:#000;color:#ffffff;text-align:center;" id="lang-trip-day-per-day">Day per day</td></tr>
+<tr><td colspan="2" style="">
+<table><tr><td style="vertical-align:top;padding-right:20pt;width:100pt;"><b><a name="2024-08-25"></a>2024-08-25</b><br />Sunday</td><td style="vertical-align:top;">Arrivied late in the evening.<br /><a href="images1a22.html?trip=S-SE-1&amp;date=20240825" style="color:#0b5394;text-decoration:none;"><div class="iib-action-button" id="lang-trip-show-photos">Show photos</div></td></tr><tr><td style="border-bottom:1pt solid #000000;padding-right:20pt;width:100pt;"></td><td style="border-bottom:1pt solid #000000;"><img style="height:0.9em;" src="images/house.svg" /> <div id="nightNumber" style="position:absolute;display:inline-block;background-color:#000;border-radius:20pt;height:15pt;width:15pt;color:#fff;font-size:8pt;text-align:center;line-height:15pt;margin-top:1pt;">1</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://www.google.com/maps/?q=57.088600,%2012.242687" style="color:#0b5394;text-decoration:none;">Varbergs Kusthotell, Nils Kreugers väg 5, Varberg &nbsp;&nbsp;<img style="height:0.9em;" src="images/coordinate.svg" /> Sweden, 57.088600, 12.242687</a> &nbsp;&nbsp; </td></tr><tr><td style="vertical-align:top;padding-right:20pt;width:100pt;"><b><a name="2024-08-26"></a>2024-08-26</b><br />Monday</td><td style="vertical-align:top;">Surfing.<br /><a href="images1e6c.html?trip=S-SE-1&amp;date=20240826" style="color:#0b5394;text-decoration:none;"><div class="iib-action-button" id="lang-trip-show-photos">Show photos</div></td></tr><tr><td style="border-bottom:1pt solid #000000;padding-right:20pt;width:100pt;"></td><td style="border-bottom:1pt solid #000000;"><img style="height:0.9em;" src="images/house.svg" /> <div id="nightNumber" style="position:absolute;display:inline-block;background-color:#000;border-radius:20pt;height:15pt;width:15pt;color:#fff;font-size:8pt;text-align:center;line-height:15pt;margin-top:1pt;">2</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://www.google.com/maps/?q=57.088600,%2012.242687" style="color:#0b5394;text-decoration:none;">Varbergs Kusthotell, Nils Kreugers väg 5, Varberg &nbsp;&nbsp;<img style="height:0.9em;" src="images/coordinate.svg" /> Sweden, 57.088600, 12.242687</a> &nbsp;&nbsp; </td></tr><tr><td style="vertical-align:top;padding-right:20pt;width:100pt;"><b><a name="2024-08-27"></a>2024-08-27</b><br />Tuesday</td><td style="vertical-align:top;">Surfing.<br /><a href="images5bd1.html?trip=S-SE-1&amp;date=20240827" style="color:#0b5394;text-decoration:none;"><div class="iib-action-button" id="lang-trip-show-photos">Show photos</div></td></tr><tr><td style="border-bottom:1pt solid #000000;padding-right:20pt;width:100pt;"></td><td style="border-bottom:1pt solid #000000;"><img style="height:0.9em;" src="images/house.svg" /> <div id="nightNumber" style="position:absolute;display:inline-block;background-color:#000;border-radius:20pt;height:15pt;width:15pt;color:#fff;font-size:8pt;text-align:center;line-height:15pt;margin-top:1pt;">3</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://www.google.com/maps/?q=57.088600,%2012.242687" style="color:#0b5394;text-decoration:none;">Varbergs Kusthotell, Nils Kreugers väg 5, Varberg &nbsp;&nbsp;<img style="height:0.9em;" src="images/coordinate.svg" /> Sweden, 57.088600, 12.242687</a> &nbsp;&nbsp; </td></tr><tr><td style="vertical-align:top;padding-right:20pt;width:100pt;"><b><a name="2024-08-28"></a>2024-08-28</b><br />Wednesday</td><td style="vertical-align:top;">Surfing.<br /><a href="images97b2.html?trip=S-SE-1&amp;date=20240828" style="color:#0b5394;text-decoration:none;"><div class="iib-action-button" id="lang-trip-show-photos">Show photos</div></td></tr><tr><td style="border-bottom:1pt solid #000000;padding-right:20pt;width:100pt;"></td><td style="border-bottom:1pt solid #000000;"><img style="height:0.9em;" src="images/house.svg" /> <div id="nightNumber" style="position:absolute;display:inline-block;background-color:#000;border-radius:20pt;height:15pt;width:15pt;color:#fff;font-size:8pt;text-align:center;line-height:15pt;margin-top:1pt;">4</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://www.google.com/maps/?q=57.088600,%2012.242687" style="color:#0b5394;text-decoration:none;">Varbergs Kusthotell, Nils Kreugers väg 5, Varberg &nbsp;&nbsp;<img style="height:0.9em;" src="images/coordinate.svg" /> Sweden, 57.088600, 12.242687</a> &nbsp;&nbsp; </td></tr><tr><td style="vertical-align:top;padding-right:20pt;width:100pt;"><b><a name="2024-08-29"></a>2024-08-29</b><br />Thursday</td><td style="vertical-align:top;">Surfing.<br /><a href="imagesb08d.html?trip=S-SE-1&amp;date=20240829" style="color:#0b5394;text-decoration:none;"><div class="iib-action-button" id="lang-trip-show-photos">Show photos</div></td></tr><tr><td style="border-bottom:1pt solid #000000;padding-right:20pt;width:100pt;"></td><td style="border-bottom:1pt solid #000000;"><img style="height:0.9em;" src="images/house.svg" /> <div id="nightNumber" style="position:absolute;display:inline-block;background-color:#000;border-radius:20pt;height:15pt;width:15pt;color:#fff;font-size:8pt;text-align:center;line-height:15pt;margin-top:1pt;">5</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://www.google.com/maps/?q=57.088600,%2012.242687" style="color:#0b5394;text-decoration:none;">Varbergs Kusthotell, Nils Kreugers väg 5, Varberg &nbsp;&nbsp;<img style="height:0.9em;" src="images/coordinate.svg" /> Sweden, 57.088600, 12.242687</a> &nbsp;&nbsp; </td></tr><tr><td style="vertical-align:top;padding-right:20pt;width:100pt;"><b><a name="2024-08-30"></a>2024-08-30</b><br />Friday</td><td style="vertical-align:top;">By plane back home.<br /><a href="imagesa85a.html?trip=S-SE-1&amp;date=20240830" style="color:#0b5394;text-decoration:none;"><div class="iib-action-button" id="lang-trip-show-photos">Show photos</div></td></tr><tr><td style="border-bottom:1pt solid #000000;padding-right:20pt;width:100pt;"></td><td style="border-bottom:1pt solid #000000;"><img style="height:0.9em;" src="images/house.svg" /> <div id="nightNumber" style="position:absolute;display:inline-block;background-color:#000;border-radius:20pt;height:15pt;width:15pt;color:#fff;font-size:8pt;text-align:center;line-height:15pt;margin-top:1pt;">6</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Home) &nbsp;&nbsp;<img style="height:0.9em;" src="images/coordinate.svg" /> Sweden, - &nbsp;&nbsp; </td></tr></table>
+</td></tr>
+</table>
+
+
+                
+                                <div id="iib-foot" style="text-align:center;font-size:32pt;padding-top:20pt;padding-bottom:30pt;"><span class="immer-in-font-uc">II</span><span class="bewegung-font-uc">B</span>
+                <!--<br/><div style="font-size:12pt;font-family: 'Francois+One', sans-serif;">Revisit your travel memories</div>--></div>
+                                
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+
+
+<!-- Mirrored from localhost:2024/trip.php?id=S-SE-1 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Sep 2024 17:47:03 GMT -->
+</html>
