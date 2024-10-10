@@ -3,14 +3,14 @@
 
 
 
-<!-- Mirrored from localhost:2024/images.php?trip=P-SE-2&date=20240804 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Oct 2024 16:23:19 GMT -->
+<!-- Mirrored from localhost:2024/dataset.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Oct 2024 16:22:56 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     
     <link rel="shortcut icon" href="images/favicon.webp" />
     <meta charset="utf-8">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-    <title>Trip Images - Immer in Bewegung</title>
+    <title>Dataset - Immer in Bewegung</title>
     <link href="images/cssec4a.css?family=Cairo|Francois+One|Merriweather|Righteous" rel="stylesheet">
 
     <meta name="mobile-web-app-capable" content="yes">
@@ -44,7 +44,9 @@
         .menuBar > a {background-color:#e4e9ef;font-family: 'Francois+One', sans-serif;text-align: center;flex:1;cursor:pointer;padding:5pt;color:#000;}
         .menuBar > a:hover {background-color:#8f959eAA;color:#fff;text-decoration:none;}
         
-        .container {margin:0;}
+        .container {margin:auto;<br />
+<b>Warning</b>:  Undefined variable $widthRestriction in <b>/www/_head.php</b> on line <b>59</b><br />
+max-width:50em;width:50em;}
         .normal { margin:20pt 0 20pt 0;line-height:1em;font-family: 'Cairo', sans-serif;font-weight:bold;color:#000;font-size:3em;text-align:center;}
 
         #searchStringPattern {font-family: 'Francois+One', sans-serif;font-size:14pt;border:2pt solid #6f757e;background-color:#f8fafd;padding:5pt;border-radius:10pt;}
@@ -233,36 +235,44 @@
             <div style="position:absolute;right:10pt;top:5pt;"><span id="aboutTop"><a style="font-family: 'Francois+One', sans-serif;color:#fff;" href="about.html">?</a></span></div>
             <div class="topBar" style="display:flex;align-items:center;justify-content: center; "><img src="images/frog_g_72.webp" style="height:24px;" />&nbsp;<span class="immer-in-font-uc">Immer in</span>&nbsp;<span class="bewegung-font-uc">Bewegung</span></div>
             <div class="menuBar">
-                <a href="index-2.html" class="menuItem" id="lang-menu-indexphp" >Overview</a><a href="map.html" class="menuItem" id="lang-menu-mapphp" >Map</a><a href="statistics.html" class="menuItem" id="lang-menu-statisticsphp" >Statistics</a><a href="dataset.html" class="menuItem" id="lang-menu-datasetphp" >Dataset</a><a href="about.html" class="menuItem" id="lang-menu-aboutphp" >About</a>            </div>
+                <a href="index-2.html" class="menuItem" id="lang-menu-indexphp" >Overview</a><a href="map.html" class="menuItem" id="lang-menu-mapphp" >Map</a><a href="statistics.html" class="menuItem" id="lang-menu-statisticsphp" >Statistics</a><a href="dataset.html" class="menuItem" id="lang-menu-datasetphp"  style="font-weight:bold;">Dataset</a><a href="about.html" class="menuItem" id="lang-menu-aboutphp" >About</a>            </div>
         </div>
 
         <div class="container" style="display: flex; flex-direction: column; height: 100vh;max-width:100%;">
-<div class="bar imagesBar">
-    <div style="display: flex; align-items: center; flex: 1;">
-        <a href="images8c81.html?trip=P-SE-2&amp;date=20240803" style="display: flex; align-items: center;color:#0b5394;"><img src="images/plans_arrow72e8.svg?color=0b5394" style="height:18pt;margin-right:5pt;" /><b id="prevDayText">Previous day</b></a>    </div>
-    <div style="flex:1;text-align:center;">
-    <a href="tripb1b8.html?id=P-SE-2"><div style="background-color:#0b5394;display:inline-block;padding:5pt;border-radius:2pt;color:#fff;"><span id="backText">Back to trip </span>P-SE-2</div></a>    </div>
-    <div style="flex:1;text-align:center;">
-        <select name="date_dd" id="date_dd" style="font-size:16pt;padding:5pt;border:3pt solid #6f757e;background-color:#e4e9ef;display:inline-block;" onchange="document.location='?trip=P-SE-2&date='+this.value"><option value="20240801" >2024-08-01</option>
-<option value="20240802" >2024-08-02</option>
-<option value="20240803" >2024-08-03</option>
-<option value="20240804" selected>2024-08-04</option>
-<option value="20240805" >2024-08-05</option>
-</select>    </div>
-    <div style="flex:1;text-align:center;">
-    <a href="http://localhost:2283/search?query=%7B%22takenAfter%22%3A%222024-08-04T00%3A00%3A00.000Z%22%2C%22takenBefore%22%3A%222024-08-04T23%3A59%3A59.999Z%22%7D&amp;ref=iib" target="_blank" style="display: inline-flex; align-items: center;padding:5pt;border-radius:2pt;color:#fff;justify-content: center;background-color:#000;"><span id="openinText">Open in&nbsp;</span><img id="openinLogo" src="images/immich-logo-inline-dark.png" style="height:18pt;margin-right:5pt;vertical-align:middle;" /><img id="openinLogoSmall" src="images/immich-logo-inline-dark-small.png" style="height:18pt;vertical-align:middle;" /></a>    </div>
-    <div style="flex:1;text-align:right;">
-        <a href="images6351.html?trip=P-SE-2&amp;date=20240805" style="display: flex; align-items: center;justify-content: flex-end;color:#0b5394"><b id="nextDayText">Next day</b><img src="images/plans_arrow72e8.svg?color=0b5394" style="height:18pt;margin-left:5pt;transform: rotate(180deg);" /></a>    </div>
-</div>
+<div style="margin:0 10pt 0 10pt;">
 
+    <h1 class="normal" id="lang-sync-title">Dataset</h1>
 
-<!-- Immich integration -->
-<div style="flex-grow: 1;">
-    <iframe id="immich_iframe" src="http://localhost:2283/search?query=%7B%22takenAfter%22%3A%222024-08-04T00%3A00%3A00.000Z%22%2C%22takenBefore%22%3A%222024-08-04T23%3A59%3A59.999Z%22%7D&amp;ref=iib" style="display: block;width:100%;height:100%;border:0;"></iframe>
+    <div style="padding:10pt;font-family: 'Francois+One', sans-serif;" class="pg_grey boxShadow">
+    <span id="lang-sync-second-pg">Your Google Spreadsheet ID according to your configuration</span><br />
+    <b><a target="_blank" href="https://docs.google.com/spreadsheets/d/1dr8Za7_CvArUK7ZG4Cx6Kv5fXwEtX_i6rmEBFryE5jc/edit">1dr8Za7_CvArUK7ZG4Cx6Kv5fXwEtX_i6rmEBFryE5jc</a></b><br /><br />
+    <span id="lang-sync-third-pg">Update your files manually by <b>right click</b> on the links below and save the file to your IIB <b>data</b> folder.</span>
+    <br />
+        <div style="margin-top:10pt;">
+            <a class="iib-action-button" href="https://docs.google.com/spreadsheets/d/1dr8Za7_CvArUK7ZG4Cx6Kv5fXwEtX_i6rmEBFryE5jc/export?format=tsv&amp;gid=0">Overview (tsv)</a>
+            
+            <a class="iib-action-button" href="https://docs.google.com/spreadsheets/d/1dr8Za7_CvArUK7ZG4Cx6Kv5fXwEtX_i6rmEBFryE5jc/export?format=tsv&amp;gid=230002739">Events (tsv)</a>
+            
+            <a class="iib-action-button" href="https://docs.google.com/spreadsheets/d/1dr8Za7_CvArUK7ZG4Cx6Kv5fXwEtX_i6rmEBFryE5jc/export?format=tsv&amp;gid=19867792">Map (tsv)</a>
+            </div>
+    </div>
+    <p id="lang-sync-first-pg">You need to be logged on in advance on Google Sheet to perform the actions above. No user authentication details will be sent to the web app.</p>
+
+    <a onclick="document.getElementById('manualOption').style.display='block';this.style.display='none';" style="font-family: 'Francois+One', sans-serif;cursor:pointer;">Show manual option</a>
+    <div id="manualOption" style="display:none;margin-top:15pt;padding:10pt;font-family: 'Francois+One', sans-serif;" class="pg_grey boxShadow">
+        <div id="lang-sync-other-options-text">If you use Microsoft 365 or a local installation of Microsoft Office, LibreOffice or other, you can save tsv files directly to the <b>data</b> folder with the following names</div>
+        <ul>
+            <li><u>IIB Trip Data version 1 - Overview.tsv</u></li>
+            <li><u>IIB Trip Data version 1 - Events.tsv</u></li>
+            <li><u>IIB Trip Data version 1 - Map.tsv</u></li>
+        </ul>
+    </div>
+    
 </div>
-<!-- Immich integration end -->
 
                 
+                                <div id="iib-foot" style="text-align:center;font-size:32pt;padding-top:20pt;padding-bottom:30pt;"><span class="immer-in-font-uc">II</span><span class="bewegung-font-uc">B</span>
+                <!--<br/><div style="font-size:12pt;font-family: 'Francois+One', sans-serif;">Revisit your travel memories</div>--></div>
                                 
         </div>
 
@@ -275,5 +285,5 @@
 
 
 
-<!-- Mirrored from localhost:2024/images.php?trip=P-SE-2&date=20240804 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Oct 2024 16:23:19 GMT -->
+<!-- Mirrored from localhost:2024/dataset.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Oct 2024 16:22:56 GMT -->
 </html>
